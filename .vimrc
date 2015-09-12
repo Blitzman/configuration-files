@@ -1,3 +1,7 @@
+" Pathogen
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
 " Powerline
 set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 set laststatus=2
